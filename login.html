@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>thực hành</title>
+</head>
+<body>
+<script>
+    let ten = prompt("nhập tên");
+    if (ten === 'admin') {
+        let mk = prompt("nhập mk");
+        if (mk === 'TheMaster') {
+            alert('Welcome');
+        } else if (mk == null) {
+            alert('canceled')
+        } else {
+            alert('wrong password');
+        }
+    } else if (ten == null) {
+        alert('canceld');
+    } else {
+        alert('I dont know you');
+    }
+
+</script>
+</body>
+</html>
